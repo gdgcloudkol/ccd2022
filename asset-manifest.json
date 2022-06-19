@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/ccd2022/static/css/main.f2a6b0c1.css",
-    "main.js": "/ccd2022/static/js/main.08b41246.js",
+    "main.css": "/ccd2022/static/css/main.3bb578a8.css",
+    "main.js": "/ccd2022/static/js/main.8d393b5d.js",
     "static/media/gdsc-logo.gif": "/ccd2022/static/media/gdsc-logo.c4dc897894a7a1e2b603.gif",
     "index.html": "/ccd2022/index.html",
-    "main.f2a6b0c1.css.map": "/ccd2022/static/css/main.f2a6b0c1.css.map",
-    "main.08b41246.js.map": "/ccd2022/static/js/main.08b41246.js.map"
+    "main.3bb578a8.css.map": "/ccd2022/static/css/main.3bb578a8.css.map",
+    "main.8d393b5d.js.map": "/ccd2022/static/js/main.8d393b5d.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2a6b0c1.css",
-    "static/js/main.08b41246.js"
+    "static/css/main.3bb578a8.css",
+    "static/js/main.8d393b5d.js"
   ]
 }
