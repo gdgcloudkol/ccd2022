@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 // import logo from '../../Images/logo.png';
 import svglogo from '../../Images/logo.svg'
-import { auth, logout } from '../../services/UserAuth'
+import { auth, logout, signInWithGoogle } from '../../services/UserAuth'
 import { useAuthState } from 'react-firebase-hooks/auth'
 import { Link } from 'react-router-dom'
 
@@ -18,7 +18,7 @@ export default function Navbar() {
         setScrolled(false)
       }
     }
-  }, [])
+  });
 
   const toggleNav = () => setIsOpen(!isOpen)
 
@@ -77,7 +77,14 @@ export default function Navbar() {
                   </button>
                 </Link>
               ) : (
-                ''
+                <Link to="/ccd2022">
+                  <button
+                    className="mt-2 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-black py-2 px-4 border border-blue-500 hover:border-transparent rounded"
+                    onClick={signInWithGoogle}
+                  >
+                    Log In
+                  </button>
+                </Link>
               )}
             </div>
 
