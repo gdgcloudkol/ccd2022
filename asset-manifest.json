@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ccd2022/static/css/main.34c8a9a3.css",
-    "main.js": "/ccd2022/static/js/main.bd45b98b.js",
+    "main.css": "/ccd2022/static/css/main.f277abe1.css",
+    "main.js": "/ccd2022/static/js/main.0460ce51.js",
     "static/media/gdsc-logo.gif": "/ccd2022/static/media/gdsc-logo.c4dc897894a7a1e2b603.gif",
     "static/media/GoogleSans-Regular_0.ttf": "/ccd2022/static/media/GoogleSans-Regular_0.0d01ceaea2903216c4ee.ttf",
     "static/media/gdsc-gecbsp-logo.png": "/ccd2022/static/media/gdsc-gecbsp-logo.3da3c8faebf753b77d50.png",
@@ -20,13 +20,13 @@
     "static/media/icons-sessonize.svg": "/ccd2022/static/media/icons-sessonize.1451469073c1ff6e98a15b3fd041d3d5.svg",
     "static/media/icons-linkedin.svg": "/ccd2022/static/media/icons-linkedin.924da0787a565598a8b885ab36e6ed3c.svg",
     "static/media/icons-twitter.svg": "/ccd2022/static/media/icons-twitter.8b178ca78afa8f7e3f2e3be6b4079712.svg",
-    "static/media/icons-facebook.svg": "/ccd2022/static/media/icons-facebook.bc122dbf0095765aaa4721b04b06c02e.svg",
     "index.html": "/ccd2022/index.html",
-    "main.34c8a9a3.css.map": "/ccd2022/static/css/main.34c8a9a3.css.map",
-    "main.bd45b98b.js.map": "/ccd2022/static/js/main.bd45b98b.js.map"
+    "static/media/icons-facebook.svg": "/ccd2022/static/media/icons-facebook.bc122dbf0095765aaa4721b04b06c02e.svg",
+    "main.f277abe1.css.map": "/ccd2022/static/css/main.f277abe1.css.map",
+    "main.0460ce51.js.map": "/ccd2022/static/js/main.0460ce51.js.map"
   },
   "entrypoints": [
-    "static/css/main.34c8a9a3.css",
-    "static/js/main.bd45b98b.js"
+    "static/css/main.f277abe1.css",
+    "static/js/main.0460ce51.js"
   ]
 }
