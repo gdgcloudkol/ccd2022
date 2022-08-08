@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ccd2022/static/css/main.b056b3b8.css",
-    "main.js": "/ccd2022/static/js/main.c5f09802.js",
+    "main.css": "/ccd2022/static/css/main.1afb9713.css",
+    "main.js": "/ccd2022/static/js/main.35983d5f.js",
     "static/media/gdsc-logo.gif": "/ccd2022/static/media/gdsc-logo.c4dc897894a7a1e2b603.gif",
     "static/media/GoogleSans-Regular_0.ttf": "/ccd2022/static/media/GoogleSans-Regular_0.0d01ceaea2903216c4ee.ttf",
     "static/media/gdsc-gecbsp-logo.png": "/ccd2022/static/media/gdsc-gecbsp-logo.3da3c8faebf753b77d50.png",
@@ -18,11 +18,11 @@
     "static/media/icons-twitter.svg": "/ccd2022/static/media/icons-twitter.8b178ca78afa8f7e3f2e3be6b4079712.svg",
     "index.html": "/ccd2022/index.html",
     "static/media/icons-facebook.svg": "/ccd2022/static/media/icons-facebook.bc122dbf0095765aaa4721b04b06c02e.svg",
-    "main.b056b3b8.css.map": "/ccd2022/static/css/main.b056b3b8.css.map",
-    "main.c5f09802.js.map": "/ccd2022/static/js/main.c5f09802.js.map"
+    "main.1afb9713.css.map": "/ccd2022/static/css/main.1afb9713.css.map",
+    "main.35983d5f.js.map": "/ccd2022/static/js/main.35983d5f.js.map"
   },
   "entrypoints": [
-    "static/css/main.b056b3b8.css",
-    "static/js/main.c5f09802.js"
+    "static/css/main.1afb9713.css",
+    "static/js/main.35983d5f.js"
   ]
 }
