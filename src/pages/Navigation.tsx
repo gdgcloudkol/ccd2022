@@ -1,11 +1,4 @@
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Navigate,
-  useNavigate,
-  useLocation
-} from 'react-router-dom'
+import { Routes, Route, Navigate, useNavigate, useLocation } from 'react-router-dom'
 import Home from './Home/Home'
 import Forms from '../Components/Form/Form'
 import { auth } from '../services/UserAuth'
@@ -72,10 +65,7 @@ export default function Navigation() {
         <Route path="*" element={<NotFound />} />
         <Route path="/" element={<Home />} />
         <Route path="/sessions" element={<Sessions />} />
-        <Route
-          path="/tickets"
-          element={<PrivateRoute component={Tickets} />}
-        />
+        <Route path="/tickets" element={<PrivateRoute component={Tickets} />} />
         <Route path="/rsvp" element={<PrivateRoute component={Forms} />} />
         <Route path="/ccd2022" element={<Home />} />
         <Route path="/ccd2022/sessions" element={<Sessions />} />
