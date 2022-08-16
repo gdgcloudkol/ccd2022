@@ -80,9 +80,9 @@ const Hero = () => {
               can happen.
             </p>
             <p className="text-base pt-4 mb-0 text-g-gray-8">Organized By :</p>
-            <img className="w-2/4" src={logo} alt="Logo" />
+            <img className="py-2 w-2/4" src={logo} alt="Logo" />
             <p className="text-base mb-4 text-g-gray-8">
-              Dates: 27-28<sup className="mr-0.5">th</sup>August
+              Date: 24<sup className="mr-0.5">th</sup>September
             </p>
             <div className="lg:w-fit md:w-full grid grid-cols-1 lg:grid-cols-2 gap-x-4 gap-y-4">
               {user ? (

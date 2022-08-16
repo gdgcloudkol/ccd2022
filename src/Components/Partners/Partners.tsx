@@ -1,14 +1,10 @@
-import Title from '../Title/Title'
-// import logo from '../../Images/gdsc-logo.png'
+
 import nseclogo from '../../Images/gdsc-nsec-logo.png'
 import ciemlogo from '../../Images/gdsc-ciem-logo.png'
-import dscsitlogo from '../../Images/gdsc-dscsit-logo.png'
 import gcelogo from '../../Images/gdsc-gce-logo.png'
 import gecbsplogo from '../../Images/gdsc-gecbsp-logo.png'
-import hitlogo from '../../Images/gdsc-hit-logo.png'
-import jiscelogo from '../../Images/gdsc-jisce-logo.png'
 import sitlogo from '../../Images/gdsc-sit-logo.png'
-import msitlogo from '../../Images/gdsc-msit-logo.png'
+
 
 const Partners = () => {
   return (
@@ -57,38 +53,6 @@ const Partners = () => {
         >
           <img src={gecbsplogo} alt="logo" className="w-[220px]" />
         </a>
-        {/* <a
-          className="w-fit rounded cursor- pointer"
-          href="https://dschit.com/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={hitlogo} alt="logo" className="w-[220px]" />
-        </a> */}
-        {/* <a
-          className="w-fit rounded cursor- pointer"
-          href="https://www.linkedin.com/in/gdsc-jisce/?trk=public_profile_browsemap&originalSubdomain=in"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={jiscelogo} alt="logo" className="w-[220px]" />
-        </a> */}
-        {/* <a
-          className="w-fit rounded cursor- pointer"
-          href="https://gdsc.community.dev/dr-sudhir-chandra-sur-institute-of-technology-sports-complex-kolkata/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={dscsitlogo} alt="logo" className="w-[220px]" />
-        </a> */}
-        {/* <a
-          className="w-fit rounded cursor- pointer"
-          href="https://dscmsit.github.io/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={msitlogo} alt="logo" className="w-[220px]" />
-        </a> */}
       </div>
     </div>
   )

@@ -19,9 +19,9 @@ const Speakers = () => {
 
   return (
     <>
-      <div className="flex justify-center items-center flex-col px-5 pt-5">
+      <div id="speakers-grid" className="flex justify-center items-center flex-col px-5 pt-5">
         <div className="text-2xl lg:text-3xl font-normal text-g-gray-8">
-          Our Amazing Speakers
+        Amazing Speaker Lineup is Comming Up!
         </div>
         <div className="text-base max-w-2xl w-fit text-center font-light text-g-gray-5 mt-2">
           Hear from the Professionals who are building the future of cloud. Our
@@ -35,7 +35,7 @@ const Speakers = () => {
         style={{ gridAutoRows: '1fr' }}
         id="speakers-grid"
       >
-        {speakersDetails.map((speaker, id) => (
+        {/* {speakersDetails.map((speaker, id) => (
           <div
             key={id}
             className="flex w-full h-full flex-col rounded-2xl items-center border border-g-gray-8 p-4 transform hover:-translate-y-2 hover:shadow-xl transition duration-300"
@@ -62,7 +62,7 @@ const Speakers = () => {
             </div>
             <Socials links={[...speaker?.links]} />
           </div>
-        ))}
+        ))} */}
         {showModal ? (
           <>
             <div className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">

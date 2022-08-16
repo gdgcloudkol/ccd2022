@@ -91,7 +91,7 @@ const Dashboard = () => {
                     </button>
                   </>
                   ) : (<>
-                    Thank you for applying to be a part of Cloud Community Days Kolkata 2022. <br/><br/>
+                    Thank you for applying to be a part of Cloud Community Days Pune 2022. <br/><br/>
                     We will review your application and update its status on the website soon.<br /><br />
                     We shall also send you an email when we close the review of all applications with your application's status.
                   </>
@@ -102,10 +102,10 @@ const Dashboard = () => {
                       <div className="max-w-xl">
                         <div className="py-4">
                           <h3 className="text-3xl text-gray-800 font-semibold md:text-4xl">
-                            Be a part of the <span className="text-indigo-600">largest developer conference</span> of Eastern India
+                            Be a part of the <span className="text-indigo-600">largest developer conference</span> of Western India
                           </h3>
                           <p className="text-gray-500 leading-relaxed mt-3">
-                            Entry to Cloud Community Days Kolkata 2022 is only via application. Please apply at the earliest to nominate yourself for a ticket.
+                            Entry to Cloud Community Days Pune 2022 is only via application. Please apply at the earliest to nominate yourself for a ticket.
                           </p>
                         </div>
                         <Link

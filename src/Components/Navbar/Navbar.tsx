@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 // import logo from '../../Images/logo.png';
-import svglogo from '../../Images/logo.svg'
+import logoNav from '../../Images/logo-nav.png'
 import { auth, logout, signInWithGoogle } from '../../services/UserAuth'
 import { useAuthState } from 'react-firebase-hooks/auth'
 import { Link, Navigate } from 'react-router-dom'
@@ -37,7 +37,7 @@ export default function Navbar({ active, handleClick }) {
             <div className="flex space-x-7">
               <div>
                 <Link to="/ccd2022" className="flex items-center px-2 my-1.5">
-                  <img src={svglogo} alt="Logo" className="w-80 mr-2" />
+                  <img src={logoNav} alt="Logo" className="w-80 mr-2" />
                 </Link>
               </div>
             </div>

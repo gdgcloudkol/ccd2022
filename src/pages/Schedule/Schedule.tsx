@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import sessionData from './schedule.json'
+import soon from '../../Images/soon.svg'
 
 const Sessions = () => {
   const [day, setDay] = useState(1)
@@ -32,13 +33,12 @@ const Sessions = () => {
     <>
       <div className="w-full max-w-7xl items-center justify-center flex flex-col lg:flex-row my-0 mx-auto gap-12 pt-20 lg:pt-28 lg:pb-[62px] px-4">
         <div className="w-full">
-          <div className="text-6xl text-g-gray-8 mb-8 font-light">Schedule</div>
-          {/* <div className="text-xl text-g-gray-8 w-4/5 mt-4 mb-5">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores
-            dignissimos recusandae incidunt, sequi quisquam, nulla cumque debitis
-            temporibus quam aliquid vero distinctio possimus minus tempore!
-          </div> */}
-          <div className="h-10 lg:h-14 w-full border-b-[1px] border-g-gray-3 flex gap-5 my-5">
+          {/* <div className="text-6xl text-center text-g-gray-8 mb-8 font-light">Schedule</div> */}
+          <div className="text-center w-full" >
+            <h2>Schedule is comming soon!</h2>
+            <img className="m-auto" src={soon} alt="Hourglass" width={140} />
+          </div>
+          {/* <div className="h-10 lg:h-14 w-full border-b-[1px] border-g-gray-3 flex gap-5 my-5">
             <div
               className={
                 'text-xl lg:text-2xl font-light px-8 h-full cursor-pointer' +
@@ -61,8 +61,10 @@ const Sessions = () => {
             >
               Day 2
             </div>
-          </div>
-          <div className="schedule-container" style={{ height: containerHeight }}>
+          </div> */}
+
+          
+          <div className="schedule-container d-none" style={{ height: containerHeight }}>
             <div
               ref={day1}
               id="fade-in-1"
