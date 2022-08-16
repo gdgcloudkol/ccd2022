@@ -1,6 +1,7 @@
 import Title from '../Title/Title'
 import 'firebase/firestore'
 import { useState } from 'react'
+import { useForm } from "react-hook-form";
 import { useNavigate } from 'react-router-dom'
 import { getFirestore, setDoc, doc } from 'firebase/firestore'
 import app from '../../services/firebase'
@@ -9,6 +10,7 @@ import { useAuthState } from 'react-firebase-hooks/auth'
 // import { encode as base64_encode } from 'base-64'
 import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
+const { register, handleSubmit, formState: { errors } } = useForm();
 const Forms = () => {
   const [name, setName] = useState('')
   const [pronoun, setPronoun] = useState('he/him')
