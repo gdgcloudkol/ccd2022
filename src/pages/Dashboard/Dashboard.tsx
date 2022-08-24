@@ -109,7 +109,7 @@ const Dashboard = () => {
                           </p>
                         </div>
                         <Link
-                          className="cta-pr-btn px-4 py-2 text-indigo-600 no-underline font-medium bg-indigo-50 rounded-full inline-flex items-center"
+                          className="cta-pr-btn px-4 py-2 text-white no-underline font-medium bg-gray-500 rounded-full inline-flex items-center"
                           to="">
                           {/* Apply Now */}
                           Application Closed
